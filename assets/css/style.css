@@ -1,4 +1,7 @@
+* {
+    box-sizing: border-box;
 
+}
 
 body {
     background: url('../images/topography.png') repeat;
@@ -125,45 +128,81 @@ textarea {
  }
 
  .port-item {
-     position: relative;
-     background-color: black;
-     margin-bottom: 20px;
-     width: 45%;
-     height: 200px;
+     border: #ccc solid 1px ;
+     
      
  }
 
- #port1 {
-     background-image: url(../images/port1.jpg);
-     float: left;
 
+ #port1 {
+    width: 274px;
+    height: 206px;
+    background-image: url(../images/port1.jpg);
+    float: left;
+    margin: 0px 40px 40px 0px;
+    
 }
 
  #port2 {
     background-image: url(../images/port2.jpg);
-     float: right;
+    width: 274px;
+    height: 206px;
+    float: left;
+    
+    
+    
+
  }
 
  #port3{
     background-image: url(../images/port3.jpg);
+    width: 274px;
+    height: 206px;
+    float: left;
+    clear: left;
+    margin: 0px 40px 40px 0px;
+  
  
  }
 
  #port4 {
     background-image: url(../images/port4.jpg);
-     float: right;
+    width: 274px;
+    height: 206px;
+    float: left;
+   
+
  }
 
  #port5{
     background-image: url(../images/port5.jpg);
+    width: 274px;
+    height: 206px;
+    float: left;
+    clear: left;
+    margin: 0px 40px 40px 0px;
+   
  
  }
 
  #port6 {
     background-image: url(../images/port6.jpg);
-    float: right;
+    width: 274px;
+    height: 206px;
+    float: left;
 }
 
+.porttext {
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    height: 60px;
+    margin-top: 138px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 18px;
+    clear: both;
+}
 
 
 
@@ -175,14 +214,21 @@ textarea {
     width:100%;
     text-align: center;
     color: #ccc;
-    padding: 40px 0px 0px 0px;
-    height: 50px;
+    padding: 30px 0px 0px 0px;
+    height: 70px;
     position: fixed;
+}
+
+.clearsection {
+    display: block;
+    clear: both;
+    
+
 }
 
 .clearfix {
     display: block;
     clear: both;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
 
 }
